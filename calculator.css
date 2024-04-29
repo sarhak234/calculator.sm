@@ -1,0 +1,49 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Input Styles */
+#inp {
+    width: 170px;
+    border: none;
+    margin-top: 25px;
+    text-align: right;
+    height: 50px;
+    margin-left: 15px;
+    font-size: 30px;
+    outline: none;
+}
+
+/* Option Button Styles */
+.options button {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+/* Highlight Style */
+.hl {
+    color: orangered;
+}
+
+/* Set Maximum and Minimum Screen Size */
+html, body {
+    max-width: 250px; /* Maximum width for the content */
+    min-width: 200px; /* Minimum width for the content */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; /* Center the content horizontally */
+    max-height: 500px;
+}
+
+.heading{
+    font-family: arial;
+    width: auto;
+    font-size: medium;
+}
